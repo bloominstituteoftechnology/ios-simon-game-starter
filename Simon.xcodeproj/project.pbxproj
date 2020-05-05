@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE414D26245F8DA300E54457 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414D25245F8DA300E54457 /* ScoreTableViewCell.swift */; };
+		CE414D28245F8DD800E54457 /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414D27245F8DD800E54457 /* HighScore.swift */; };
+		CE414D2A245F8E0200E54457 /* ScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414D29245F8E0200E54457 /* ScoreController.swift */; };
+		CE414D6C2460DEE400E54457 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414D6B2460DEE400E54457 /* Colors.swift */; };
 		CE62E351243FC95D00CCF474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E350243FC95D00CCF474 /* AppDelegate.swift */; };
 		CE62E353243FC95D00CCF474 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E352243FC95D00CCF474 /* SceneDelegate.swift */; };
-		CE62E355243FC95D00CCF474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E354243FC95D00CCF474 /* ViewController.swift */; };
 		CE62E358243FC95D00CCF474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62E356243FC95D00CCF474 /* Main.storyboard */; };
 		CE62E35A243FC95F00CCF474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62E359243FC95F00CCF474 /* Assets.xcassets */; };
 		CE62E35D243FC95F00CCF474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62E35B243FC95F00CCF474 /* LaunchScreen.storyboard */; };
+		CE62E365243FC99B00CCF474 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E364243FC99B00CCF474 /* GameBoardViewController.swift */; };
+		CE62E367243FC9B200CCF474 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E366243FC9B200CCF474 /* MenuViewController.swift */; };
+		CE62E369243FC9D300CCF474 /* ColoredButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E368243FC9D300CCF474 /* ColoredButton.swift */; };
+		CE62E38D24410B0F00CCF474 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62E38C24410B0F00CCF474 /* GameManager.swift */; };
+		CE62E3912443A15C00CCF474 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE62E3902443A15C00CCF474 /* red.mp3 */; };
+		CE62E3932443A16300CCF474 /* yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE62E3922443A16300CCF474 /* yellow.mp3 */; };
+		CE62E3952443A16900CCF474 /* green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE62E3942443A16900CCF474 /* green.mp3 */; };
+		CE62E3972443A16E00CCF474 /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE62E3962443A16E00CCF474 /* blue.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE414D25245F8DA300E54457 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		CE414D27245F8DD800E54457 /* HighScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
+		CE414D29245F8E0200E54457 /* ScoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreController.swift; sourceTree = "<group>"; };
+		CE414D6B2460DEE400E54457 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CE62E34D243FC95D00CCF474 /* Simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE62E350243FC95D00CCF474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE62E352243FC95D00CCF474 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE62E354243FC95D00CCF474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE62E357243FC95D00CCF474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE62E359243FC95F00CCF474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE62E35C243FC95F00CCF474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE62E35E243FC95F00CCF474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE62E364243FC99B00CCF474 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
+		CE62E366243FC9B200CCF474 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE62E368243FC9D300CCF474 /* ColoredButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredButton.swift; sourceTree = "<group>"; };
+		CE62E38C24410B0F00CCF474 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		CE62E3902443A15C00CCF474 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = red.mp3; sourceTree = "<group>"; };
+		CE62E3922443A16300CCF474 /* yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yellow.mp3; sourceTree = "<group>"; };
+		CE62E3942443A16900CCF474 /* green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = green.mp3; sourceTree = "<group>"; };
+		CE62E3962443A16E00CCF474 /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blue.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE414D2B245F9C9300E54457 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CE62E3902443A15C00CCF474 /* red.mp3 */,
+				CE62E3922443A16300CCF474 /* yellow.mp3 */,
+				CE62E3942443A16900CCF474 /* green.mp3 */,
+				CE62E3962443A16E00CCF474 /* blue.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CE414D2C245F9C9900E54457 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CE62E350243FC95D00CCF474 /* AppDelegate.swift */,
+				CE62E352243FC95D00CCF474 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CE414D2D245F9CA600E54457 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE62E366243FC9B200CCF474 /* MenuViewController.swift */,
+				CE62E364243FC99B00CCF474 /* GameBoardViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CE414D2E245F9CB300E54457 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE414D27245F8DD800E54457 /* HighScore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE414D2F245F9CBD00E54457 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE414D25245F8DA300E54457 /* ScoreTableViewCell.swift */,
+				CE62E368243FC9D300CCF474 /* ColoredButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE414D30245F9CC700E54457 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE414D29245F8E0200E54457 /* ScoreController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		CE414D31245F9CD700E54457 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CE62E356243FC95D00CCF474 /* Main.storyboard */,
+				CE62E35B243FC95F00CCF474 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CE414D32245FA00D00E54457 /* Game Logic */ = {
+			isa = PBXGroup;
+			children = (
+				CE62E38C24410B0F00CCF474 /* GameManager.swift */,
+			);
+			path = "Game Logic";
+			sourceTree = "<group>";
+		};
 		CE62E344243FC95D00CCF474 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +149,16 @@
 		CE62E34F243FC95D00CCF474 /* Simon */ = {
 			isa = PBXGroup;
 			children = (
-				CE62E350243FC95D00CCF474 /* AppDelegate.swift */,
-				CE62E352243FC95D00CCF474 /* SceneDelegate.swift */,
-				CE62E354243FC95D00CCF474 /* ViewController.swift */,
-				CE62E356243FC95D00CCF474 /* Main.storyboard */,
+				CE414D2C245F9C9900E54457 /* Application */,
+				CE414D2B245F9C9300E54457 /* Sounds */,
+				CE414D6B2460DEE400E54457 /* Colors.swift */,
+				CE414D2D245F9CA600E54457 /* View Controllers */,
+				CE414D32245FA00D00E54457 /* Game Logic */,
+				CE414D2E245F9CB300E54457 /* Models */,
+				CE414D30245F9CC700E54457 /* Model Controllers */,
+				CE414D2F245F9CBD00E54457 /* Views */,
+				CE414D31245F9CD700E54457 /* Storyboards */,
 				CE62E359243FC95F00CCF474 /* Assets.xcassets */,
-				CE62E35B243FC95F00CCF474 /* LaunchScreen.storyboard */,
 				CE62E35E243FC95F00CCF474 /* Info.plist */,
 			);
 			path = Simon;
@@ -125,7 +222,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE62E3952443A16900CCF474 /* green.mp3 in Resources */,
+				CE62E3972443A16E00CCF474 /* blue.mp3 in Resources */,
+				CE62E3912443A15C00CCF474 /* red.mp3 in Resources */,
 				CE62E35D243FC95F00CCF474 /* LaunchScreen.storyboard in Resources */,
+				CE62E3932443A16300CCF474 /* yellow.mp3 in Resources */,
 				CE62E35A243FC95F00CCF474 /* Assets.xcassets in Resources */,
 				CE62E358243FC95D00CCF474 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE62E355243FC95D00CCF474 /* ViewController.swift in Sources */,
+				CE414D2A245F8E0200E54457 /* ScoreController.swift in Sources */,
+				CE414D6C2460DEE400E54457 /* Colors.swift in Sources */,
+				CE62E369243FC9D300CCF474 /* ColoredButton.swift in Sources */,
+				CE62E38D24410B0F00CCF474 /* GameManager.swift in Sources */,
+				CE414D26245F8DA300E54457 /* ScoreTableViewCell.swift in Sources */,
+				CE62E367243FC9B200CCF474 /* MenuViewController.swift in Sources */,
+				CE62E365243FC99B00CCF474 /* GameBoardViewController.swift in Sources */,
 				CE62E351243FC95D00CCF474 /* AppDelegate.swift in Sources */,
+				CE414D28245F8DD800E54457 /* HighScore.swift in Sources */,
 				CE62E353243FC95D00CCF474 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
