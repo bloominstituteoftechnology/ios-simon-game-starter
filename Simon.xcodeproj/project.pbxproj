@@ -192,7 +192,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = "Lambda School";
+				ORGANIZATIONNAME = "BloomTech";
 				TargetAttributes = {
 					CE62E34C243FC95D00CCF474 = {
 						CreatedOnToolsVersion = 11.4;

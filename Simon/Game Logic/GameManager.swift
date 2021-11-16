@@ -3,7 +3,7 @@
 //  Simon
 //
 //  Created by Ben Gohlke on 4/10/20.
-//  Copyright © 2020 Lambda School. All rights reserved.
+//  Copyright © 2020 BloomTech. All rights reserved.
 //
 
 import Foundation
